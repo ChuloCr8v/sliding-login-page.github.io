@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+  <title>Slider Login/Signup Page</title>
+</head>
+<body class="body bg-gray-600 h-100 flex justify-center py-40 px-7 md:px-40 lg:px-72 xl:px-96">
+  <div class="container space-y-8 bg-gradient-to-r from-red-400 to-red-600 rounded-2xl p-4 overflow-hidden">
+
+    <!--  LOGIN/SIGNUP TEXT -->
+
+    <div class="login-sign-up-text relative flex justify-center h-48 mt-10">
+
+      <!--  SIGNUP TEXT -->
+      <div class="signup-text absolute flex flex-col justify-center items-center space-y-4 text-white">
+        <h1 class="mb-4 text-3xl">Hello There!</h1>
+        <p class="text-center text-xl">
+          Click here to create your account and get started on your journey.
+        </p>
+        <button class="signup-btn py px-6 rounded-2xl border-2 border-white transition duration-300 hover:bg-red-800 transform focus:outline-none focus:scale-105 mt-20">Sign Up</button>
+      </div>
+
+      <!--  Login TEXT -->
+
+      <div class="login-text absolute flex flex-col justify-center items-center space-y-2 text-white">
+        <h1 class="mb-4 text-3xl">Welcome Back!</h1>
+        <p class="text-center text-xl">
+          Log into your account and continue where you left off.
+        </p>
+        <button class="login-btn py px-6 rounded-2xl border-2 border-white transition duration-300 hover:bg-red-800 transform focus:outline-none focus:scale-105">Login</button>
+      </div>
+    </div>
+    <div class="form-container rounded-2xl px-0 relative flex justify-center items-center h-96">
+
+      <div class="overlay absolute w-full rounded-2xl  bg-white h-72 flex flex-col justify-center items-center shadow-2xl "></div>
+
+      <!--  LOGIN FORM -->
+      <div class="login-form absolute flex flex-col justify-center items-center space-y-4 ">
+        <h1 class="mb-10 text-2xl font-bold">Login</h1>
+        <form action="/" class="flex flex-col justify-center items-center space-y-2">
+          <input type="text" class="w-full bg-gray-200 rounded-2xl px-4 py-1 text-gray-700 border-2 border-red-400 transition duration-300 transform focus:outline-none focus:border-gray-600 focus:bg-white focus:scale-105 " placeholder="Username" required>
+          <input type="password" class="bg-gray-200 rounded-2xl px-4 py-1 text-gray-700 border-2 border-red-400 transition duration-300 transform focus:outline-none focus:border-gray-600 focus:bg-white focus:scale-105" placeholder="Password" required>
+          <input type="submit" class="px-6 py-1 bg-white rounded-full border-2 border-gray-600 transition duration-300 transform hover:scale-105 hover:border-red-400" value="LOGIN">
+        </form>
+      </div>
+
+      <!-- SIGNUP FORM -->
+      <div class="signup-form absolute w-48 flex flex-col justify-center items-center space-y-2">
+        <h1 class="mb-8 text-2xl font-bold">Create Account</h1>
+        <form action="/" class="flex flex-col justify-center items-center space-y-2">
+          <input type="text" class="bg-gray-200 rounded-2xl px-4 py-1 text-gray-700 border-2 border-red-400 transition duration-300 transform focus:outline-none focus:border-gray-600 focus:bg-white focus:scale-105" placeholder="Username" required>
+          <input type="email" class="bg-gray-200 rounded-2xl px-4 py-1 text-gray-700 border-2 border-red-400 transition duration-300 transform focus:outline-none focus:border-gray-600 focus:bg-white focus:scale-105" placeholder="Email Address" required>
+          <input type="password" class="bg-gray-200 rounded-2xl px-4 py-1 text-gray-700 border-2 border-red-400 transition duration-300 transform focus:outline-none focus:border-gray-600 focus:bg-white focus:scale-105" placeholder="Password" required>
+          <input type="password" class="bg-gray-200 rounded-2xl px-4 py-1 text-gray-700 border-2 border-red-400 transition duration-300 transform focus:outline-none focus:border-gray-600 focus:bg-white focus:scale-105" placeholder="Confirm Password" required>
+          <input type="submit" class="px-6 py-1 bg-white rounded-full border-2 border-gray-600 transition duration-300 transform hover:scale-105 hover:border-red-400" value="SIGNUP">
+        </form>
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+  <script src="js/index.js"></script>
+</body>
+</html>
